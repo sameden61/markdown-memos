@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:squarepegcapital365-my.sharepoint.com)",
+      "Bash(dir /b \"C:\\\\Users\\\\SamEden\\\\CursorProjects\\\\markdown-memos\")",
+      "Bash(ls:*)",
+      "WebSearch",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: AI hardware investment research vault\n\n- Overview with investment thesis and equipment landscape slides\n- Company memos: CAMT, PSTG, TPRO, FORM, KLAC, LRCX, plus existing ALAB, BESI, MU\n- Financial metrics images and company product images\n- Templates for analysis framework\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}
