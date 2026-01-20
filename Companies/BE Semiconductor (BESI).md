@@ -67,6 +67,18 @@
 
 ---
 
+## Patent Analysis
+
+### Bonding Equipment: BESI vs ASMPT
+BESI patent citations jumped 2021-22, suggesting increasing relevance of their IP as hybrid bonding approaches production.
+![[Patent analytics/14_bonding_segment.png]]
+
+### Who Is Citing BESI Patents?
+17.2% of citations come from foundries/IDMs (highest of all companies analysed). Micron is the largest source—suggests strong memory packaging relevance.
+![[Patent analytics/20_besi_citation_sources.png]]
+
+---
+
 ## Interesting Topics to Read
 - Hybrid Bonding vs. TCB
 - JEDEC HBM height standards

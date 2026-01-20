@@ -12,26 +12,23 @@
 
 - Technoprobe manufactures **probe cards**—consumable interfaces required to test chips (CPUs, GPUs, AI accelerators) before they are packaged.
 - Before a chip goes into a plastic case and gets soldered into a phone or server, it must be tested. If you package a broken chip, you waste money on packaging and risk shipping a dud. The problem is that silicon wafers have millions of microscopic contact points, and the testing machine (ATE) is too clumsy to touch them directly.
-- Think of the ATE as a doctor and the wafer as the patient. The probe card is the stethoscope—the doctor can't get a reading without it physically touching the patient.
 - A probe card is a round circuit board with thousands of microscopic MEMS needles in the center. These needles physically prick the wafer to create an electrical loop for testing.
-- Every time Nvidia or Apple designs a new chip, the contact point layout changes. They must buy a new custom probe card. This is why it's sticky.
+- Every time Nvidia or Apple designs a new chip, the contact point layout changes. They must buy a new custom probe card.
 
 ### Alignment with Overall Thesis
 - AI chips are massive and require probe cards with tens of thousands of pins. These cards cost $100k+ vs. standard cards at $50k.
 - Chiplets and advanced packaging (CoWoS, SoIC) require **Known Good Die** testing—you can't stack chips without verifying each layer works. One bad layer ruins the whole stack. This drives 100% testing coverage and higher probe card volume.
-- Technoprobe specializes in logic (processors), not memory. Directly aligned with AI accelerator growth.
+- Technoprobe specialises in logic (processors), not memory. Directly aligned with AI accelerator growth.
 
 ### Business Model, Customers
 - $50k-$100k+ per card. AI/advanced logic at the high end.
 - Unlike ATE machines (Teradyne), which are one-time capex, probe cards are consumables. Volume driven (more chips = more wear = more replacement) and design driven (new chip = new card).
-- Customer base is the "Giants"—likely TSMC, Intel, Apple, Nvidia. Concentration risk is real, but these are durable customers.
 
 ### Comments on Team
 - Family led, Italian. Founded in 1995 by Giuseppe Crippa in a garage. Family still owns controlling stake.
 - Co-founder was CEO until 2017 (age 82) and passed in 2025.
 - Current CEO is founder's nephew; Chairman and Vice Chairman are founder's sons.
-- Engineering-first, secretive, agile. Known for being technically superior in **vertical probe cards** (the type needed for high-end logic). They've disrupted FormFactor by being faster and more flexible.
-
+- Engineering-first, secretive, agile. Known for being technically superior in **vertical probe cards** (the type needed for high-end logic). 
 ### Early View of Moat Hypothesis
 - Design lock-in: every new chip needs a new probe card. Once you're the incumbent, switching mid-production is painful.
 - Technical leadership in vertical probes—decades of precision engineering investment.

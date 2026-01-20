@@ -13,6 +13,9 @@
 - Micron is an **IDM (integrated device manufacturer)** based in the US. They're part of the memory leaders alongside SK Hynix and Samsung for the HBM used for KV Caches for LLM inference.
 - As an IDM, they buy equipment from ASML, Lam Research, etc. and design and manufacture their own chips. These chips are then sent to TSMC or OSATs for packaging.
 - Micron is reportedly **sold out in 2026**, recently cancelled their consumer line of 'Crucial' memory cards (gamers are not happy!) to focus on AI data centre memory.
+
+![[Images/MU-memoryPrices.png]]
+
 - Micron sells complete chips, so volume and increasing capacity is critical for their sustained growth.
 - Estimated price per stack (one chip) ~$300-$400 for HBM3E; each H100 has 6x of these stacks.
 - **80% of Micron's revenue is from DRAM** (HBM fits in here) and **20% is from NAND** (for SSD storage).
@@ -38,7 +41,7 @@
 ---
 
 ## Why They're Interesting, and Why Now
-- Memory is critical for AI inference, and they are part of a **duopoly**.
+- Memory is critical for AI inference. Micron is **one of three HBM suppliers** (with SK Hynix and Samsung), and the only US-based option.
 - We have to believe that we are in early innings of AI Inference for why now (I believe that we are).
 
 ---
@@ -78,7 +81,12 @@
 ![[Images/MU-Patent-Innovation-Quality.png]]
 
 ### HBM / Stacked Memory: Who Invested Early?
+SK Hynix was the HBM pioneer (spike in 2012-2013). Micron started catching up from 2018 onward. Samsung has been a consistent mid-leader since 2009.
 ![[Images/MU-Patent-HBM-Early-Investment.png]]
+
+### HBM First Mover Advantage
+Samsung has the largest total HBM patent portfolio (6,385), but SK Hynix's earlier entry (pioneer spike) translated to current market leadership. Micron (2,591 patents) is building but remains third.
+![[Patent analytics/32_hbm_first_mover.png]]
 
 ---
 

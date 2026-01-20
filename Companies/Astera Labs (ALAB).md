@@ -10,14 +10,14 @@
 ### Product 101 and Where They Fit into the AI Stack
 ![[Images/alab-retimers.jpg|300]]
 
-- ALAB's primary revenue source is **retimers (80%+)**. These are physical devices that 'boost and clean' electrical signals that are sent over copper. Without these retimers, copper signals become too noisy and the '1s and 0s' are interpreted correctly and the system fails. Retimers are a critical component of all motherboards.
+- ALAB's primary revenue source is **retimers (80%+)**. These are physical devices that 'boost and clean' electrical signals that are sent over copper. Without these retimers, copper signals become too noisy and the '1s and 0s' are interpreted correctly and the system fails. Retimers are a critical component of all motherboards - every AI chip has several retimers. 
 - Common retimers, like the ones in your laptop are fairly undifferentiated, but advanced systems use newer protocols (e.g., **PCIe Gen6**) which double the bandwidth and increase error rates without advanced retimers.
 - **ALAB's Scorpio switches** are also growing quickly. These coordinate the communication leaving the GPU (Nvswitch is for GPU-GPU, and PCIe switches direct traffic outside the GPU, and Retimers boost that traffic).
 - ALAB is also a pioneer in **CXL technology** (unproven, but testing), which is a protocol to connect memory over copper to create a unified memory pool. As memory requirements increase, pooling memory may become more critical, at least for spillover, and Astera Labs chips become more important.
 - Lastly, ALAB has a management software called **COSMOS**, which is becoming increasingly important. It provides basic observability of traffic signals that help engineers diagnose faulty equipment. The cost and value of equipment is increasing, so utilisation becomes far more valuable. For example, COSMOS can help detect an elevated bit error rate in a cable so it can be replaced. COSMOS also enables firmware updates for fleet management, allowing data centre engineers to optimise traffic.
 
 ### Alignment with Overall Thesis
-- Bottlenecks and downtime become more expensive, so leading retimers and diagnostics become increasingly valuable, making leading retimers a **no-regrets purchase**.
+- Bottlenecks and downtime become more expensive, so leading retimers with higher bandwidth and better diagnostics become increasingly valuable, increasing the value of prop leading retimers.
 - As memory becomes more of a bottleneck, fast SSD storage may become more critical for large scale systems or local enterprise fine tuning; if this plays out, CXL chips could help enable this transition.
 
 ### Business Model, Customers

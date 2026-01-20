@@ -15,12 +15,11 @@
   - Logic (Technoprobe's turf): complex, high speed, high heat. Checking calculations. CPUs, GPUs, AI accelerators.
   - Memory (FormFactor's turf): volume, repetition, parallelism. Memory chips are commodities—you want to test 500 at a time, not one.
 - FormFactor builds massive MEMS probe cards that touch and test hundreds of memory chips simultaneously. This is a different engineering problem than Technoprobe's high-pin-count logic cards.
-- They run a "supermarket" strategy—offering everything from R&D probe systems to mass production cards for memory and logic. Breadth vs. Technoprobe's depth.
+- They offer a broader product set vs. Technoprobe's depth.
 
 ### Alignment with Overall Thesis
 - HBM is the tailwind. High Bandwidth Memory stacks DRAM vertically to feed AI GPUs. It's harder to test than standard memory, requires Known Good Die testing (can't stack 8 layers if the bottom one is broken), and volume is ramping as SK Hynix, Micron, Samsung feed Nvidia's demand.
-- Important distinction from Camtek: investors often confuse these two on HBM. Camtek uses cameras to find visible errors (bumps look straight). FormFactor uses probes to find functional errors (can the memory actually store and retrieve data). You need both—they're complementary steps, not competitors.
-
+- Important distinction from Camtek: Camtek uses cameras to find visible errors (bumps look straight). FormFactor uses probes to find functional errors (can the memory actually store and retrieve data). You need both.
 ### Business Model, Customers
 - $75k-$150k per card. Consumable model—cards are "ink cartridges" for testing. Recurring based on touchdowns (volume).
 - Core customers are memory IDMs (SK Hynix, Micron, Samsung). Also serves logic, but Technoprobe has been gaining share in high-end logic.
@@ -29,7 +28,6 @@
 ### Comments on Team
 - Founded in 1993; founder no longer in company.
 - Standard US corporate structure, unlike Technoprobe's family dynasty. Led by Mike Slessor (CEO)—focused on M&A, supply chain optimization, steady diversified growth.
-- "Safe pair of hands" in the industry. Less entrepreneurial than Technoprobe, but more predictable execution.
 
 ### Early View of Moat Hypothesis
 - Memory testing dominance. Engineering for testing 500 chips simultaneously is non-trivial.

@@ -6,7 +6,10 @@
       "Bash(ls:*)",
       "WebSearch",
       "Bash(git add:*)",
-      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: AI hardware investment research vault\n\n- Overview with investment thesis and equipment landscape slides\n- Company memos: CAMT, PSTG, TPRO, FORM, KLAC, LRCX, plus existing ALAB, BESI, MU\n- Financial metrics images and company product images\n- Templates for analysis framework\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: AI hardware investment research vault\n\n- Overview with investment thesis and equipment landscape slides\n- Company memos: CAMT, PSTG, TPRO, FORM, KLAC, LRCX, plus existing ALAB, BESI, MU\n- Financial metrics images and company product images\n- Templates for analysis framework\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)",
+      "Bash(cat:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nUpdate memos with patent analytics and style improvements\n\n- Add patent analysis sections to BESI, LRCX, CAMT, KLAC, PSTG, MU\n- Fix HBM \"duopoly\" error to \"one of three suppliers\"\n- Remove Obsidian wiki links for easier export\n- Flatten memo style \\(less flowery, more objective\\)\n- Add memory price graph to Micron memo\n- Include all patent analytics images\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
     ]
   }
 }

@@ -86,6 +86,18 @@
 
 ---
 
+## Patent Analysis
+
+### 3D NAND Patent Timeline
+AMAT leads in 3D NAND patents by volume. Lam has fewer filings but consistent presence. Note: patent volume doesn't always correlate with market position—Lam's etch leadership may be more about process know-how than patent count.
+![[Patent analytics/10_3d_nand.png]]
+
+### Deposition & Etch: AMAT vs LRCX
+AMAT dominates EUV and 3D NAND patent filings. Lam's citation rate has historically been competitive with AMAT, suggesting quality over quantity.
+![[Patent analytics/15_deposition_etch_segment.png]]
+
+---
+
 ## Interesting Topics to Read
 - 3D NAND scaling path to 1,000 layers
 - High Aspect Ratio (HAR) etch technology

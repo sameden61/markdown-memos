@@ -13,7 +13,7 @@
 ### Product 101 and Where They Fit into the AI Stack
 ![[Images/klac-machines.jpg|300]]
 
-- KLA is the dominant player in **semiconductor process control and yield management**—the "MRI for chips." They have ~55-63% of the overall inspection/metrology market and 75-80% in patterned wafer inspection.
+- KLA is the dominant player in **semiconductor process control and yield management**—the "MRI for chips." They have ~55-65% of the overall inspection/metrology market and 75-80% in patterned wafer inspection.
 - The core problem: as chips shrink and complexity grows, microscopic defects become yield killers. A single particle can ruin an expensive AI chip. KLA detects defects during manufacturing so fabs can fix process issues before ruining wafer lots.
 - They provide end-to-end process control across the fab:
   - Reticle inspection: checking the photomask before it patterns thousands of wafers
@@ -48,7 +48,6 @@
 ## Why They're Interesting, and Why Now
 - KLA is the benchmark against which smaller players (Camtek, Onto) are measured. Understanding KLA helps us understand where smaller players can win.
 - Bull case: AI complexity increases, yield becomes more critical, advanced packaging grows, e-beam gains continue.
-- Our view: KLA is a great company but a $100B+ behemoth priced for excellence. We prefer Camtek's speed-vs-precision arbitrage in back-end/packaging where KLA is less dominant.
 
 ---
 
@@ -82,6 +81,14 @@
 
 ### V1: EV/Sales NTM
 ![[Metrics-images/KLAC-V1-EV-Sales-NTM.png]]
+
+---
+
+## Patent Analysis
+
+### Inspection & Metrology Dominance
+KLA's patent volume dwarfs Camtek and Onto across all inspection categories. This is the R&D moat in action—smaller players can't match the breadth.
+![[Patent analytics/12_inspection_segment.png]]
 
 ---
 

@@ -10,8 +10,8 @@
 ### Product 101 and Where They Fit into the AI Stack
 ![[Images/pstg-blades.jpg|300]]
 
-- Pure is often mispriced as a commodity hardware vendor. The thesis is that it's actually a software company wrapping proprietary hardware to solve two constraints in the AI era: power and predictability.
-- The key differentiator is **DirectFlash**. Competitors (NetApp, Dell) buy pre-packaged SSDs from Samsung/Hynix with their own internal controllers doing garbage collection and wear leveling independently. Pure buys raw NAND chips and manages them via software-defined controllers at the system level.
+- Pure is often thought of as a commodity hardware vendor. The thesis is that it's actually a software company wrapping proprietary hardware to solve two constraints in the AI era: power and predictability.
+- The key differentiator is **DirectFlash**. Competitors (NetApp, Dell) buy pre-packaged SSDs from Samsung/Hynix with their own internal controllers doing garbage collection and wear leveling independently. Pure buys raw NAND chips and manages them via software-defined controllers at the system level. This is somewhat analogous to Groq's method for inference chips with deterministic software defined networking. 
 - This architecture has three implications:
   - Power/density: removing individual controllers reduces power/TB by ~50%. They ship 75TB modules with a roadmap to 300TB.
   - QLC economics: Pure can use lower-cost, lower-endurance **QLC NAND** but achieve TLC-level reliability because their software manages writes globally, preventing uneven wear.
@@ -23,11 +23,11 @@
 - For RAG architectures in finance/gov, indexing proprietary data on-prem avoids cloud egress fees and regulatory risk.
 
 ### Business Model, Customers
-- ~$150k+ per blade. Data gravity purchasing dynamic—bought when data buckets fill up.
-- **Evergreen subscription** model: unlike competitors requiring forklift upgrades every 3-5 years, Pure upgrades controllers non-disruptively. This locks in customers and improves margins over time.
-- Pure isn't trying to beat AWS/Azure at general cloud storage. They're the premium tier for difficult workloads.
-- Meta's AI Research SuperCluster uses Pure. Google Distributed Cloud (reportedly Google's fastest-growing division) uses Pure as the physical storage layer.
-- RPO growth (24%) is outpacing revenue growth (17%)—signals a backlog of large commitments.
+- ~$150k+ per blade. Bought when data buckets fill up.
+- **Evergreen subscription** model: unlike competitors requiring forklift upgrades every 3-5 years, Pure upgrades controllers non-disruptively with replacements
+- Pure isn't trying to beat AWS/Azure at general cloud storage. They're the premium tier for difficult workloads that customers don't want on the cloud for security, speed, or egress fee reasons. Pure's common customers are government departments, financial institutions (many trading firms with latency requirements), and customers with sovereign data requirements (increasingly common)
+- Meta's AI Research SuperCluster uses Pure. Anecdotally, Meta may significantly expand contracts with Pure. Google Distributed Cloud (reportedly Google's fastest-growing division) partners with Pure and also confirms the tailwinds of hybrid and on-prem 'cloud' solutions (GDC is outpacing all other GCP divisions). GDC, for example, will partner with Pure as the foot in the door hybrid cloud vendor, and then GCP can offer the remaining on-prem solutions. 
+- RPO growth (24%) is outpacing revenue growth (17%)—signals a backlog of large commitments (even before the Meta upgrade)
 - Acquired **Portworx**, the leading Kubernetes data layer. Gives Pure a software hook into applications, not just hardware.
 - Competitive context: NetApp is software-on-commodity (bound by Samsung/Kioxia physics). Hyperscaler native storage is "good enough" but IOPS/$ is poor. DIY NAND is theoretically possible but building an enterprise-grade flash translation layer took Pure 10+ years.
 
@@ -39,7 +39,7 @@
 ### Early View of Moat Hypothesis
 - 10+ years of flash translation layer IP. Building an FTL that handles QLC reliability at enterprise level is non-trivial.
 - Evergreen subscription creates switching costs.
-- Portworx creates application-level stickiness beyond hardware.
+
 
 ---
 
@@ -89,6 +89,14 @@ Enterprises are starting to think about storage more strategically for AI worklo
 
 ### V1: EV/Sales NTM
 ![[Metrics-images/PSTG-V1-EV-Sales-NTM.png]]
+
+---
+
+## Patent Analysis
+
+### Storage Software Innovation Leader
+Pure Storage shows exceptional patent citation rates—peaking at 178 citations/patent in 2020 (extremely high). This suggests their flash translation layer and storage software IP is highly influential and frequently referenced by others in the industry.
+![[Patent analytics/30_pure_storage.png]]
 
 ---
 

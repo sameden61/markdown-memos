@@ -16,6 +16,15 @@ This cycle is worth playing. We may be 12 months late, but the opportunity is mu
 
 ---
 
+## Core Assumptions
+
+1. We're in early innings for inference demand
+2. Current infrastructure cannot satisfy demand
+3. Willingness to pay for inference will continue to increase
+4. Context and memory become more important (persistent state vs. zero-shot RAG per call)
+
+---
+
 ## How Inference is Evolving
 
 AI inference is becoming more continuous and higher skill. Context windows and persistent state become more important as use cases mature.
@@ -36,15 +45,6 @@ Chips move through four stages: Design → Front End (Wafer Fab) → Middle (Pac
 
 ---
 
-## Core Assumptions
-
-1. We're in early innings for inference demand
-2. Current infrastructure cannot satisfy demand
-3. Willingness to pay for inference will continue to increase
-4. Context and memory become more important (persistent state vs. zero-shot RAG per call)
-
----
-
 ## Priority Research
 
 ### Memory
@@ -52,43 +52,43 @@ The memory wall is the primary bottleneck. KV caches for inference require HBM b
 
 | Company | Thesis Alignment | Founder-Led |
 |---------|------------------|-------------|
-| [[Micron (MU)]] | US-based memory IDM in HBM duopoly; sold out through 2026; direct beneficiary of KV cache demand | No (but CEO co-founded SanDisk) |
+| Micron (MU) | US-based memory IDM; one of three HBM suppliers (with SK Hynix, Samsung); sold out through 2026; direct beneficiary of KV cache demand | No (but CEO co-founded SanDisk) |
 
 ### Fabless Components
 As bandwidth requirements increase, signal integrity over copper becomes harder. Leading edge retimers and switches become no-regrets purchases.
 
 | Company | Thesis Alignment | Founder-Led |
 |---------|------------------|-------------|
-| [[Astera Labs (ALAB)]] | Leads high-frequency retimers and PCIe switches; wins regardless of which GPUs ship; COSMOS software adds diagnostics moat | **Yes** |
+| Astera Labs (ALAB) | Leads high-frequency retimers and PCIe switches; wins regardless of which GPUs ship; COSMOS software adds diagnostics moat | **Yes** |
 
 ### Equipment
 Advanced packaging (HBM stacking, chiplets) requires new manufacturing processes. Equipment providers benefit from tech transitions.
 
 | Company | Thesis Alignment | Founder-Led |
 |---------|------------------|-------------|
-| [[BE Semiconductor (BESI)]] | Near-monopoly in hybrid bonding; if HBM4 height limits require hybrid bonding, BESI is the bottleneck | **Yes** |
-| [[Lam Research (LRCX)]] | Etch/deposition leader; benefits from node transitions and new fab builds for AI capacity | No |
+| BE Semiconductor (BESI) | Near-monopoly in hybrid bonding; if HBM4 height limits require hybrid bonding, BESI is the bottleneck | **Yes** |
+| Lam Research (LRCX) | Etch/deposition leader; benefits from node transitions and new fab builds for AI capacity | No |
 
 ### Inspection & Test
 Advanced packaging has lower yields. Every defect in a $40k GPU matters. Inspection scales with complexity and intolerance for defects.
 
 | Company | Thesis Alignment | Founder-Led |
 |---------|------------------|-------------|
-| [[Camtek (CAMT)]] | Back-end inspection for advanced packaging; benefits from CoWoS and HBM expansion | **Yes** (Israeli) |
-| [[KLA (KLAC)]] | Process control leader; "MRI for chips"; scales with yield management needs at advanced nodes | No |
-| [[FormFactor (FORM)]] | Probe cards are consumables for chip testing; recurring revenue tied to test volume | No |
-| [[Technoprobe (TPRO)]] | Probe card competitor; benefits from same dynamics as FormFactor | **Family-led** |
+| Camtek (CAMT) | Back-end inspection for advanced packaging; benefits from CoWoS and HBM expansion | **Yes** (Israeli) |
+| KLA (KLAC) | Process control leader; "MRI for chips"; scales with yield management needs at advanced nodes | No |
+| FormFactor (FORM) | Probe cards are consumables for chip testing; recurring revenue tied to test volume | No |
+| Technoprobe (TPRO) | Probe card competitor; benefits from same dynamics as FormFactor | **Family-led** |
 
 ### Storage
 If context windows and model weights grow, fast storage for spillover and checkpointing becomes more critical.
 
 | Company | Thesis Alignment | Founder-Led |
 |---------|------------------|-------------|
-| [[Pure Storage (PSTG)]] | Flash storage for AI data pipelines; benefits from data gravity as AI generates more data | Founder is Chief Visionary Officer |
+| Pure Storage (PSTG) | Flash storage for AI data pipelines; benefits from data gravity as AI generates more data | Founder is Chief Visionary Officer |
 
 ---
 
-## Vendor Comparison
+## Product type comparison
 
 | Vendor | Ticker | Component | Est. Price | Purchasing Dynamic | Spend Type |
 |--------|--------|-----------|------------|-------------------|------------|
@@ -222,4 +222,4 @@ If context windows and model weights grow, fast storage for spillover and checkp
 ---
 
 ## Template
-See [[Templates/Company Template]] for the standard analysis framework.
+See Templates/Company Template for the standard analysis framework.
